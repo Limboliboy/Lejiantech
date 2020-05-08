@@ -6,6 +6,9 @@
 		*{
 			padding: 0;
 			margin:0;
+		}
+		html{
+			font-size: 10px;
 		}		
 		#container{
 			overflow: scroll;
@@ -13,13 +16,13 @@
 			height: 100vh;
 			display: flex;
 			flex-wrap: wrap;
-			justify-content: center;
+			justify-content: space-around;
 			align-items: center;
 		}
 		.goods{
 			width: 45vw;
-			margin-left: 15px;
-			margin-top: 15px;
+			margin-top: 5vw;
+			font-size: 5rem;
 		}
 		img{
 			display: inline-block;
@@ -27,30 +30,31 @@
 			height: auto;
 		}
 		.desc{
+
 			padding: 5px;
 		}
 		.bottom{
 			display: flex;
 			width: 100%;
-			margin-top: 5px;
+			margin-top: 15px;
 			justify-content: space-between;
 		}
 		.name{
 			font-weight: 900;
 		}
-		.spec{
-
-		}
 		.price{
 			color: red;
 			font-weight: 900;
+		}
+		.goods:last-child:nth-child(2n-1){
+			margin-right: 49.5vw;
 		}
 	</style>
 </head>
 <body>
 	<div id="container"> 
 		<div class="goods" id="cat">
-			<img src="http://i1.fuimg.com/718427/dcd9849d48f15c92.jpg" />
+			<a href="https://m.tb.cn/h.VQwIQIT?sm=ebbfd9" target="_blank"><img src="http://i1.fuimg.com/718427/dcd9849d48f15c92.jpg" /></a>
 			<div class="desc">
 				<p class="name">空想造物猫咪铃铛盲盒</p>
 				<div class="bottom">
@@ -60,7 +64,7 @@
 			</div>
 		</div>
 		<div class="goods" id="train">
-			<img src="http://i1.fuimg.com/718427/f5a0721562282993.jpg" />
+			<a href="https://m.tb.cn/h.VQgiRth?sm=cfd3b5" target="_blank"><img src="http://i1.fuimg.com/718427/f5a0721562282993.jpg" /></a>
 			<div class="desc">
 				<p class="name">泡泡玛特火车大派对盲盒</p>
 				<div class="bottom">
@@ -70,9 +74,9 @@
 			</div>
 		</div>
 		<div class="goods" id="Doraemon">
-			<img src="http://i1.fuimg.com/718427/8ce7c7255a032d36.jpg" />
+			<a href="https://m.tb.cn/h.Vj2Piqd?sm=045646" target="_blank"><img src="http://i1.fuimg.com/718427/8ce7c7255a032d36.jpg" /></a>
 			<div class="desc">
-				<p class="desc">哆啦A梦十二星座公仔</p>
+				<p class="name">哆啦A梦十二星座公仔</p>
 				<div class="bottom">
 					<span class="spec">整盒12个</span>
 					<span class="price">￥59</span>
@@ -80,9 +84,9 @@
 			</div>
 		</div>
 		<div class="goods" id="Dragon">
-			<img src="http://i1.fuimg.com/718427/ba18771c05db38b6.jpg" />
+			<a href="https://m.tb.cn/h.VQgqcGs?sm=811da9" target="_blank"><img src="http://i1.fuimg.com/718427/9959d6ea07cbb493.jpg" /></a>
 			<div class="desc">
-				<p class="desc">恐龙蛋感温变色盲盒</p>
+				<p class="name">恐龙蛋感温变色盲盒</p>
 				<div class="bottom">
 					<span class="spec">整盒6个</span>
 					<span class="price">￥69</span>
@@ -90,9 +94,9 @@
 			</div>
 		</div>
 		<div class="goods" id="princess">
-			<img src="http://i1.fuimg.com/718427/41ee1735f1f1a2d5.jpg" />
+			<a href="https://m.tb.cn/h.VjGbPQc?sm=eb2b26" target="_blank"><img src="http://i1.fuimg.com/718427/41ee1735f1f1a2d5.jpg" /></a>
 			<div class="desc">
-				<p class="desc">林深不知处盲盒</p>
+				<p class="name">林深不知处盲盒</p>
 				<div class="bottom">
 					<span class="spec">整盒1个</span>
 					<span class="price">￥59</span>
@@ -100,65 +104,15 @@
 			</div>
 		</div>
 		<div class="goods" id="xin">
-			<img src="http://i1.fuimg.com/718427/6bf828916bdce6a1.jpg" />
+			<a href="https://m.tb.cn/h.VQDYvp4?sm=57a547" target="_blank"><img src="http://i1.fuimg.com/718427/6bf828916bdce6a1.jpg" /></a>
 			<div class="desc">
-				<p class="desc">蜡笔小新盲盒</p>
+				<p class="name">蜡笔小新盲盒</p>
 				<div class="bottom">
 					<span class="spec">整盒1个</span>
 					<span class="price">￥64</span>
 				</div>
 			</div>
-		</div>
-		<div class="goods" id="Dragon">
-			<img src="http://i1.fuimg.com/718427/ba18771c05db38b6.jpg" />
-			<div class="desc">
-				<p class="desc">恐龙蛋感温变色盲盒</p>
-				<div class="bottom">
-					<span class="spec">整盒6个</span>
-					<span class="price">￥69</span>
-				</div>
-			</div>
-		</div>
-		<div class="goods" id="princess">
-			<img src="http://i1.fuimg.com/718427/41ee1735f1f1a2d5.jpg" />
-			<div class="desc">
-				<p class="desc">林深不知处盲盒</p>
-				<div class="bottom">
-					<span class="spec">整盒1个</span>
-					<span class="price">￥59</span>
-				</div>
-			</div>
-		</div>
-		<div class="goods" id="xin">
-			<img src="http://i1.fuimg.com/718427/6bf828916bdce6a1.jpg" />
-			<div class="desc">
-				<p class="desc">蜡笔小新盲盒</p>
-				<div class="bottom">
-					<span class="spec">整盒1个</span>
-					<span class="price">￥64</span>
-				</div>
-			</div>
-		</div>
-		<div class="goods" id="Dragon">
-			<img src="http://i1.fuimg.com/718427/ba18771c05db38b6.jpg" />
-			<div class="desc">
-				<p class="desc">恐龙蛋感温变色盲盒</p>
-				<div class="bottom">
-					<span class="spec">整盒6个</span>
-					<span class="price">￥69</span>
-				</div>
-			</div>
-		</div>
-		<div class="goods" id="princess">
-			<img src="http://i1.fuimg.com/718427/41ee1735f1f1a2d5.jpg" />
-			<div class="desc">
-				<p class="desc">林深不知处盲盒</p>
-				<div class="bottom">
-					<span class="spec">整盒1个</span>
-					<span class="price">￥59</span>
-				</div>
-			</div>
-		</div>
+		</div>		
 	</div>
 </body>
 </html>
